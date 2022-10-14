@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/breautek/storm-locales/issues"
   },
-  "homepage": "https://github.com/breautek/storm-locales#readme"
+  "homepage": "https://github.com/breautek/storm-locales#readme",
+  "totalpave": {
+    "lang": {
+      "en-US": "./src/lang/en-US/index.json",
+      "fr-CA": "./src/lang/fr-CA/index.json"
+    }
+  }
 }
