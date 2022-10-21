@@ -1,12 +1,12 @@
 {
-    "@breautek/storm/InternalError/Message": "Une erreur de serveur interne s'est produite. Veuillez réessayer.",
+    "@breautek/storm/InternalError/Message": "Une erreur interne du serveur est survenue. Veuillez réessayer.",
     "@breautek/storm/UnauthorizedAccessError/message": "Accès refusé.",
-    "@breautek/storm/NotImplementedError/message": "Le gestionnaire n'implémente pas :method",
+    "@breautek/storm/NotImplementedError/message": "Le serveur ne supporte pas la méthode :method",
     "@breautek/storm/MissingParameterError/message": "Paramètre manquant (:parameter)",
     "@breautek/storm/MissingConfigError/message": "Storm ne peut pas trouver le fichier à :path",
-    "@breautek/storm/InvalidValueError/message": "Valeur inattendue pour \":variable\". Attendu :expected mais obtenu :got à la place.",
-    "@breautek/storm/InvalidCredentialsError/message": "L'identifiant ou le mot de passe est incorrect. Veuillez vérifier votre nom d'utilisateur et votre mot de passe.",
-    "@breautek/storm/ExpiredTokenError/message": "Votre session de connexion a expiré.",
-    "@breautek/storm/EntityNotFoundError/message": ":entity n'existe pas",
+    "@breautek/storm/InvalidValueError/message": "Valeur non supporté pour \":variable\". :expected attendu mais :got a été reçu.",
+    "@breautek/storm/InvalidCredentialsError/message": "Nom d'utilisateur ou mot de passe incorrect. Veuillez vérifier vos informations.",
+    "@breautek/storm/ExpiredTokenError/message": "La session a expiré.",
+    "@breautek/storm/EntityNotFoundError/message": ":entity non existant.",
     "@breautek/storm/DuplicateEntryError/message": ":entity avec :property \":name\" existe déjà."
 }
