@@ -1,12 +1,12 @@
 {
     "@breautek/storm/InternalError/Message": "Une erreur interne du serveur est survenue. Veuillez réessayer.",
     "@breautek/storm/UnauthorizedAccessError/message": "Accès refusé.",
-    "@breautek/storm/NotImplementedError/message": "Le serveur ne supporte pas la méthode :method",
-    "@breautek/storm/MissingParameterError/message": "Paramètre manquant (:parameter)",
-    "@breautek/storm/MissingConfigError/message": "Storm ne peut pas trouver le fichier à :path",
-    "@breautek/storm/InvalidValueError/message": "Valeur non supporté pour \":variable\". :expected attendu mais :got a été reçu.",
+    "@breautek/storm/NotImplementedError/message": "Le serveur ne supporte pas la méthode ${method}",
+    "@breautek/storm/MissingParameterError/message": "Paramètre manquant (${parameter})",
+    "@breautek/storm/MissingConfigError/message": "Storm ne peut pas trouver le fichier à ${path}",
+    "@breautek/storm/InvalidValueError/message": "Valeur non supporté pour \"${variable}\". ${expected} attendu mais ${got} a été reçu.",
     "@breautek/storm/InvalidCredentialsError/message": "Nom d'utilisateur ou mot de passe incorrect. Veuillez vérifier vos informations.",
     "@breautek/storm/ExpiredTokenError/message": "La session a expiré.",
-    "@breautek/storm/EntityNotFoundError/message": ":entity non existant.",
-    "@breautek/storm/DuplicateEntryError/message": ":entity avec :property \":name\" existe déjà."
+    "@breautek/storm/EntityNotFoundError/message": "${entity} non existant.",
+    "@breautek/storm/DuplicateEntryError/message": "${entity} avec ${property} \"${name}\" existe déjà."
 }
