@@ -1,6 +1,7 @@
 {
     "@breautek/storm/InternalError/Message": "Une erreur interne du serveur est survenue. Veuillez réessayer.",
     "@breautek/storm/UnauthorizedAccessError/message": "Accès refusé.",
+    "@breautek/storm/ForbiddenError/message": "Accès refusé.",
     "@breautek/storm/NotImplementedError/message": "Le serveur ne supporte pas la méthode ${method}",
     "@breautek/storm/MissingParameterError/message": "Paramètre manquant (${parameter})",
     "@breautek/storm/MissingConfigError/message": "Storm ne peut pas trouver le fichier à ${path}",

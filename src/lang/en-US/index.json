@@ -1,6 +1,7 @@
 {
     "@breautek/storm/InternalError/Message": "An internal server error has occured. Please try again.",
     "@breautek/storm/UnauthorizedAccessError/message": "Access Denied.",
+    "@breautek/storm/ForbiddenError/message": "Access Denied.",
     "@breautek/storm/NotImplementedError/message": "Handler does not implement ${method}",
     "@breautek/storm/MissingParameterError/message": "Missing parameter (${parameter})",
     "@breautek/storm/MissingConfigError/message": "Storm cannot find config file at ${path}",
