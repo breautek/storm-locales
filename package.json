@@ -1,6 +1,6 @@
 {
   "name": "@breautek/storm-locales",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Locale strings for the builtin Storm framework errors",
   "main": "index.js",
   "scripts": {
